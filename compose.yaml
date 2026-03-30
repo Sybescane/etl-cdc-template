@@ -1,0 +1,7 @@
+﻿services:
+  etl-template:
+    image: etl-template
+    build:
+      context: .
+      dockerfile: etl-template/Dockerfile
+
